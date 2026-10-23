@@ -67,7 +67,7 @@ The sector exhibits a bifurcated market structure:
 
 ## 🔥 Open-Source Machine Learning Libraries
 
-This section curates the most impactful open-source machine learning, deep learning, NLP, computer vision, and MLOps libraries. All repositories are equipped with official badges linking directly to their stargazers page and are strictly sorted in **descending order by GitHub Stars_Count**.
+This section curates the most impactful open-source machine learning, deep learning, NLP, computer vision, and MLOps libraries. All repositories are equipped with official badges linking directly to their stargazers page and are strictly sorted in **descending order by GitHub_Stars_Count**.
 
 ### Top Open-Source Repositories (Ranked by GitHub_Stars)
 
