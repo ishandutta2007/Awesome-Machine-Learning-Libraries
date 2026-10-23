@@ -174,3 +174,12 @@ ightarrow$ `AutoGluon`, `PyCaret`, `H2O-3`.
 <div align="center">
   <sub>Built with ❤️ for data scientists, ML engineers, and researchers worldwide.</sub>
 </div>
+
+## ⭐ Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Machine-Learning-Libraries&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Machine-Learning-Libraries_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Machine-Learning-Libraries_growth.svg">
+  </picture>
+</a>
