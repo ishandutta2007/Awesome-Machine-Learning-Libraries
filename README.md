@@ -1,46 +1,54 @@
-# Awesome-Machine-Learning-Libraries
+<div align="center">
 
-## Top Machine Learning Libraries Ecosystem
+<img src="./assets/banner.svg" alt="Awesome Machine Learning Libraries Banner" width="100%" />
 
+# 🚀 Awesome Machine Learning Libraries
 
+### ⚡ The Ultimate Curated Ecosystem of Open-Source ML Frameworks, AutoML Platforms & Predictive SaaS Tools
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Machine-Learning-Libraries/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Machine-Learning-Libraries?style=social&color=white" alt="Repo Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Machine-Learning-Libraries/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Machine-Learning-Libraries?style=social&color=white" alt="Repo Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Machine-Learning-Libraries/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Machine-Learning-Libraries" alt="Issues" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Machine-Learning-Libraries/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-*Focused on AutoML Platforms, Gradient Boosting Libraries & Self-Hosted ML Toolkits*  
+<p align="center">
+  <b>A comprehensive directory of top-tier Machine Learning (ML), Deep Learning (DL), AutoML, Gradient Boosting, NLP, Computer Vision, and MLOps libraries.</b><br/>
+  <i>Engineered for data scientists, machine learning engineers, AI researchers, and technical leaders building production-grade predictive intelligence.</i>
+</p>
 
-**Last updated: October 2026**
+---
 
+</div>
 
+## 📌 Table of Contents
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Machine Learning Libraries**. These tools provide the algorithmic foundation for building predictive models—ranging from automated machine learning platforms that abstract away model selection to specialized libraries that excel at specific data types or problem domains.
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS & Hosted Enterprise ML Platforms](#️-saas--hosted-enterprise-ml-platforms)
+- [🔥 Open-Source Machine Learning Libraries](#-open-source-machine-learning-libraries)
+  - [Top Open-Source Repositories (Ranked by GitHub Stars)](#top-open-source-repositories-ranked-by-github-stars)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
+- [⚖️ Disclaimer](#️-disclaimer)
 
+---
 
+## 📊 Sector Overview & Market Dynamics
 
-**Examples** include XGBoost, LightGBM, CatBoost, scikit-learn, DataRobot, H2O.ai, and Dataiku (the category leaders).
+The global machine learning platforms and Automated Machine Learning (AutoML) market is estimated at **$3.7B–$6.8B for AutoML** (and **$135B+ for the broader ML platform ecosystem**) in 2026, advancing at a compound annual growth rate (CAGR) exceeding 35%. 
 
+The sector exhibits a bifurcated market structure:
+- **Core Cloud Infrastructure**: It is **highly concentrated** at the base compute and managed cloud ML platform layer, heavily dominated by hyperscalers (Microsoft Azure, Alphabet Google Cloud, and Amazon AWS).
+- **Specialized Application Tier**: It remains **moderately fragmented** across specialized enterprise AutoML, automated feature engineering, LLM inference engines, and predictive analytics vendors catering to targeted industry verticals and self-hosted workflows.
 
+---
 
-**Open-source emphasis**: This section is heavily expanded with every major active library for self-hosting, avoiding per-model SaaS fees, and controlling the training pipeline. The open-source landscape is anchored by **scikit-learn** (the classical ML standard with 58k+ stars), **XGBoost** (the gradient boosting workhorse with 38k+ stars), **LightGBM** (Microsoft's speed-focused alternative now under community governance), and **CatBoost** (Yandex's categorical-feature specialist), with **PyTorch** and **TensorFlow** providing the deep learning foundation.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## Sector Overview & Market Dynamics
-
-The global machine learning platforms and Automated Machine Learning (AutoML) market is estimated at **$3.7B–$6.8B for AutoML** (and **$135B+ for the broader ML platform ecosystem**) in 2026, advancing at a compound annual growth rate (CAGR) exceeding 35%. The sector exhibits a bifurcated market structure: it is **highly concentrated** at the core cloud infrastructure and compute layer dominated by hyperscalers (Microsoft, Alphabet, and Amazon), yet **moderately fragmented** across specialized enterprise AutoML, automated feature engineering, and predictive analytics vendors.
-
-## SaaS/Hosted Platforms
+## ☁️ SaaS & Hosted Enterprise ML Platforms
 
 | Product | Company Scale (Valuation / Revenue) | Description | Pricing | Free Tier Limit |
 | :--- | :--- | :--- | :--- | :--- |
@@ -55,104 +63,110 @@ The global machine learning platforms and Automated Machine Learning (AutoML) ma
 | **[Akkio](https://www.akkio.com/)** | **$60M Valuation** ($18M total funding) | AI-native analytics and predictive modeling platform for agencies. | **$49/month** (Starter self-serve plan; scaling to enterprise packages). | **14-day free trial** (access to core predictive models and data connectors; no credit card required). |
 | **[BigML](https://bigml.com/)** | **$6.6M Funding** (~$5M–$10M ARR) | Machine learning platform with a focus on ease of use and private deployments. | **$30/month** (Standard plan; 64 MB task size, 2 parallel tasks). | **Free forever plan**: max **16 MB** dataset/task size, max 2 parallel tasks, unlimited non-commercial runs. |
 
-## Open-Source GitHub Projects
+---
 
+## 🔥 Open-Source Machine Learning Libraries
 
+This section curates the most impactful open-source machine learning, deep learning, NLP, computer vision, and MLOps libraries. All repositories are equipped with official badges linking directly to their stargazers page and are strictly sorted in **descending order by GitHub star count**.
 
-- **[scikit-learn](https://github.com/scikit-learn/scikit-learn)** [![GitHub Stars](https://img.shields.io/github/stars/scikit-learn/scikit-learn?style=social&color=white)](https://github.com/scikit-learn/scikit-learn/stargazers)  
+### Top Open-Source Repositories (Ranked by GitHub Stars)
 
-  **The classical ML standard.** ~58k stars, BSD-3-Clause licensed . Comprehensive toolkit for classification, regression, clustering, dimensionality reduction, and preprocessing. **Strengths**: consistent API across all algorithms, excellent documentation, and battle-tested implementations. Best for tabular ML, feature engineering, and any workflow not requiring deep learning.
+1. **[TensorFlow](https://github.com/tensorflow/tensorflow)** [![GitHub Stars](https://img.shields.io/github/stars/tensorflow/tensorflow?style=social&color=white)](https://github.com/tensorflow/tensorflow/stargazers)  
+   **The production-scale deep learning standard.** ~201k+ stars, Apache 2.0 licensed. End-to-end open-source machine learning platform with extensive ecosystem tooling including Keras, TensorFlow Serving, TensorFlow Lite (for mobile and embedded devices), and TensorBoard for visualization. Best for large-scale enterprise production pipelines.
 
+2. **[Transformers (Hugging Face)](https://github.com/huggingface/transformers)** [![GitHub Stars](https://img.shields.io/github/stars/huggingface/transformers?style=social&color=white)](https://github.com/huggingface/transformers/stargazers)  
+   **State-of-the-art Machine Learning for Pytorch, TensorFlow, and JAX.** ~168k+ stars, Apache 2.0 licensed. Provides thousands of pretrained models to perform tasks on texts such as classification, information extraction, question answering, summarization, translation, text generation, and computer vision.
 
+3. **[PyTorch](https://github.com/pytorch/pytorch)** [![GitHub Stars](https://img.shields.io/github/stars/pytorch/pytorch?style=social&color=white)](https://github.com/pytorch/pytorch/stargazers)  
+   **The research-first deep learning framework.** ~105k+ stars, BSD-3-Clause licensed. Tensors and dynamic neural networks in Python with strong GPU/TPU acceleration. The foundation of modern generative AI, frontier LLM architectures, and cutting-edge deep learning research.
 
-- **[XGBoost](https://github.com/dmlc/xgboost)** [![GitHub Stars](https://img.shields.io/github/stars/dmlc/xgboost?style=social&color=white)](https://github.com/dmlc/xgboost/stargazers)  
+4. **[vLLM](https://github.com/vllm-project/vllm)** [![GitHub Stars](https://img.shields.io/github/stars/vllm-project/vllm?style=social&color=white)](https://github.com/vllm-project/vllm/stargazers)  
+   **High-throughput and memory-efficient LLM inference and serving.** ~95k+ stars, Apache 2.0 licensed. State-of-the-art serving engine utilizing PagedAttention, continuous batching, and chunked prefill to achieve ultra-fast generation and maximum hardware utilization.
 
-  **The gradient boosting workhorse.** ~38k stars, Apache 2.0 licensed . Scalable, portable, and distributed gradient boosting for classification, regression, and ranking. Runs on single machine, Hadoop, Spark, Dask, and Flink . **Strengths**: GPU support, mature ecosystem, and consistent performance on tabular competitions. Best for structured/tabular ML where gradient boosting dominates.
+5. **[scikit-learn](https://github.com/scikit-learn/scikit-learn)** [![GitHub Stars](https://img.shields.io/github/stars/scikit-learn/scikit-learn?style=social&color=white)](https://github.com/scikit-learn/scikit-learn/stargazers)  
+   **The classical machine learning gold standard.** ~68k+ stars, BSD-3-Clause licensed. Simple and efficient tools for predictive data analysis, classification, regression, clustering, dimensionality reduction, and preprocessing built on NumPy, SciPy, and matplotlib.
 
+6. **[Keras](https://github.com/keras-team/keras)** [![GitHub Stars](https://img.shields.io/github/stars/keras-team/keras?style=social&color=white)](https://github.com/keras-team/keras/stargazers)  
+   **High-level deep learning API for multi-backend execution.** ~64k+ stars, Apache 2.0 licensed. Seamlessly write code that runs with identical syntax on JAX, PyTorch, or TensorFlow. Exceptional for rapid prototyping and modular network building.
 
+7. **[Ray](https://github.com/ray-project/ray)** [![GitHub Stars](https://img.shields.io/github/stars/ray-project/ray?style=social&color=white)](https://github.com/ray-project/ray/stargazers)  
+   **Unified framework for scaling AI and Python applications.** ~44k+ stars, Apache 2.0 licensed. Provides distributed compute primitives and higher-level ML libraries (Ray Train, Ray Tune, Ray Serve, Ray Data) powering massive multi-node training and RLHF workloads.
 
-- **[LightGBM](https://github.com/lightgbm-org/LightGBM)** [![GitHub Stars](https://img.shields.io/github/stars/lightgbm-org/LightGBM?style=social&color=white)](https://github.com/lightgbm-org/LightGBM/stargazers)  
+8. **[DeepSpeed](https://github.com/deepspeedai/DeepSpeed)** [![GitHub Stars](https://img.shields.io/github/stars/deepspeedai/DeepSpeed?style=social&color=white)](https://github.com/deepspeedai/DeepSpeed/stargazers)  
+   **Extreme-scale deep learning optimization library.** ~43k+ stars, Apache 2.0 licensed. Developed by Microsoft to make distributed training and inference efficient and easy, featuring ZeRO (Zero Redundancy Optimizer) memory optimization.
 
-  **Microsoft's speed-focused gradient boosting.** ~14.7k stars, MIT licensed . **Governance note**: moved from `microsoft/LightGBM` to `lightgbm-org/LightGBM` in March 2026 after Microsoft considered archiving the repository; maintainers now have full control over the project . Histogram-based leaf-wise tree growth for fast training with low memory. Best for large-scale tabular ML where training speed matters.
+9. **[JAX](https://github.com/jax-ml/jax)** [![GitHub Stars](https://img.shields.io/github/stars/jax-ml/jax?style=social&color=white)](https://github.com/jax-ml/jax/stargazers)  
+   **Composable transformations of Python+NumPy programs.** ~36k+ stars, Apache 2.0 licensed. Differentiate, vectorize, JIT-compile to GPU/TPU with XLA. Highly popular for modern scientific computing and frontier AI models.
 
+10. **[spaCy](https://github.com/explosion/spaCy)** [![GitHub Stars](https://img.shields.io/github/stars/explosion/spaCy?style=social&color=white)](https://github.com/explosion/spaCy/stargazers)  
+    **Industrial-strength Natural Language Processing in Python.** ~34k+ stars, MIT licensed. Designed specifically for production use, offering blazingly fast tokenization, POS tagging, named entity recognition (NER), dependency parsing, and transformer integration.
 
+11. **[XGBoost](https://github.com/dmlc/xgboost)** [![GitHub Stars](https://img.shields.io/github/stars/dmlc/xgboost?style=social&color=white)](https://github.com/dmlc/xgboost/stargazers)  
+    **Scalable, portable and distributed gradient boosting library.** ~29k+ stars, Apache 2.0 licensed. High-performance gradient boosting (GBDT, GBRT or GBM) running on CPU, GPU, and distributed environments like Spark, Dask, and Flink.
 
-- **[CatBoost](https://github.com/catboost/catboost)** [![GitHub Stars](https://img.shields.io/github/stars/catboost/catboost?style=social&color=white)](https://github.com/catboost/catboost/stargazers)  
+12. **[MLflow](https://github.com/mlflow/mlflow)** [![GitHub Stars](https://img.shields.io/github/stars/mlflow/mlflow?style=social&color=white)](https://github.com/mlflow/mlflow/stargazers)  
+    **Open source platform for the complete machine learning lifecycle.** ~28k+ stars, Apache 2.0 licensed. Essential for experiment tracking, model evaluation, packaging, artifact versioning, and unified model registry across any ML framework.
 
-  **Yandex's categorical-feature specialist.** ~8k stars, Apache 2.0 licensed . Gradient boosting with native handling of categorical features, ordered boosting to reduce overfitting, and fast GPU/multi-GPU support out of the box . Best for datasets with many categorical variables and teams wanting strong defaults without extensive tuning.
+13. **[LightGBM](https://github.com/lightgbm-org/LightGBM)** [![GitHub Stars](https://img.shields.io/github/stars/lightgbm-org/LightGBM?style=social&color=white)](https://github.com/lightgbm-org/LightGBM/stargazers)  
+    **A fast, distributed, high performance gradient boosting framework.** ~19k+ stars, MIT licensed. Uses tree-based learning algorithms with histogram-based leaf-wise splitting for faster training speed, lower memory usage, and higher efficiency on massive tabular datasets.
 
+14. **[Optuna](https://github.com/optuna/optuna)** [![GitHub Stars](https://img.shields.io/github/stars/optuna/optuna?style=social&color=white)](https://github.com/optuna/optuna/stargazers)  
+    **Next-generation hyperparameter optimization framework.** ~15k+ stars, MIT licensed. Features lightweight dynamic search spaces, pruning algorithms (such as Hyperband/median), and seamless visualization dashboards.
 
+15. **[AutoGluon](https://github.com/autogluon/autogluon)** [![GitHub Stars](https://img.shields.io/github/stars/autogluon/autogluon?style=social&color=white)](https://github.com/autogluon/autogluon/stargazers)  
+    **Automated Machine Learning for tabular, text, image, and time-series data.** ~11k+ stars, Apache 2.0 licensed. Developed by AWS, it automates model selection, ensembling, feature engineering, and multi-layer stacking with state-of-the-art competitive performance.
 
-- **[PyTorch](https://github.com/pytorch/pytorch)** [![GitHub Stars](https://img.shields.io/github/stars/pytorch/pytorch?style=social&color=white)](https://github.com/pytorch/pytorch/stargazers)  
+16. **[PyCaret](https://github.com/pycaret/pycaret)** [![GitHub Stars](https://img.shields.io/github/stars/pycaret/pycaret?style=social&color=white)](https://github.com/pycaret/pycaret/stargazers)  
+    **Low-code machine learning library in Python.** ~10k+ stars, MIT licensed. Replaces hundreds of lines of boilerplate code with just a few commands for data prep, model comparison, tuning, ensembling, and deployment.
 
-  **The research-first deep learning framework.** ~94k stars, BSD-3-Clause licensed . Dynamic computation graphs, Pythonic API, and dominant in research. Best for deep learning, rapid prototyping, and teams that value flexibility over static graph optimization.
+17. **[CatBoost](https://github.com/catboost/catboost)** [![GitHub Stars](https://img.shields.io/github/stars/catboost/catboost?style=social&color=white)](https://github.com/catboost/catboost/stargazers)  
+    **Fast, scalable, high-performance gradient boosting on decision trees.** ~9.2k+ stars, Apache 2.0 licensed. Superior native handling of categorical features, ordered boosting to mitigate target leakage, and out-of-the-box GPU acceleration.
 
+18. **[BentoML](https://github.com/bentoml/BentoML)** [![GitHub Stars](https://img.shields.io/github/stars/bentoml/BentoML?style=social&color=white)](https://github.com/bentoml/BentoML/stargazers)  
+    **The unified model serving and deployment framework.** ~8.9k+ stars, Apache 2.0 licensed. Package models from any ML/DL framework into high-performance, containerized microservices ready for cloud deployment with adaptive batching.
 
-
-- **[TensorFlow](https://github.com/tensorflow/tensorflow)** [![GitHub Stars](https://img.shields.io/github/stars/tensorflow/tensorflow?style=social&color=white)](https://github.com/tensorflow/tensorflow/stargazers)  
-
-  **The production-scale deep learning standard.** ~194k stars, Apache 2.0 licensed . End-to-end platform with Keras, TensorFlow Serving, TensorFlow Lite, and TensorBoard. Best for production ML systems requiring robust serving infrastructure.
-
-
-
-- **[Hugging Face Transformers](https://github.com/huggingface/transformers)** [![GitHub Stars](https://img.shields.io/github/stars/huggingface/transformers?style=social&color=white)](https://github.com/huggingface/transformers/stargazers)  
-
-  **The NLP and LLM standard.** ~166k stars, Apache 2.0 licensed . Unified API for thousands of pre-trained models across NLP, vision, audio, and multimodal tasks. Best for any team working with transformers, LLMs, or pre-trained models.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Keras** — High-level API with multi-backend support (TensorFlow, JAX, PyTorch). Best for beginners and rapid prototyping.
-
-- **JAX** — Google's composable transformations framework with TPU support. Best for researchers needing fine-grained control.
-
-- **MLflow** — MLOps lifecycle standard for experiment tracking, model registry, and deployment. Best for teams wanting a unified MLOps layer.
-
-- **BentoML** — Model serving framework for packaging models from any framework into production APIs. Best for multi-framework serving.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- **SaaS pricing is largely opaque**: DataRobot, Dataiku, and Pecan AI do not publish list prices; H2O's $250k/year is a marketplace starting point; Akkio has eliminated self-serve pricing entirely . Model your actual usage before committing.
-
-- **LightGBM governance changed in 2026**: the project moved from Microsoft's organization to `lightgbm-org` after Microsoft considered archiving it. Use the new repository URL for the latest releases .
-
-- **Free tiers are for evaluation, not production**: SageMaker's free tier is time-limited; Azure and GCP credits expire; Dataiku's trial is 14 days; BigML and dotData have no permanent free tiers for enterprise features.
-
-- **Library choice depends on your problem**: tabular ML → scikit-learn/XGBoost/LightGBM/CatBoost; deep learning → PyTorch/TensorFlow; NLP/LLMs → Hugging Face Transformers.
-
-
+19. **[H2O-3](https://github.com/h2oai/h2o-3)** [![GitHub Stars](https://img.shields.io/github/stars/h2oai/h2o-3?style=social&color=white)](https://github.com/h2oai/h2o-3/stargazers)  
+    **Open-source distributed in-memory machine learning platform.** ~7.5k+ stars, Apache 2.0 licensed. Scales to massive datasets across multi-node clusters with built-in AutoML, GLM, Random Forest, GBM, and Deep Learning with Python, R, and Java APIs.
 
 ---
 
+## 🤝 How to Contribute
 
+Contributions make the open-source community an inspiring place to learn, share, and build together! Any contributions you make are **greatly appreciated**.
 
-**Made for data scientists, ML engineers, and organizations building predictive models.**  
+1. 🍴 **Fork the Project**
+2. 🌿 **Create your Feature Branch** (`git checkout -b feature/AmazingLibrary`)
+3. 💾 **Commit your Changes** (`git commit -m 'Add new open-source ML library'`)
+4. 🚀 **Push to the Branch** (`git push origin feature/AmazingLibrary`)
+5. 📬 **Open a Pull Request** with a concise description of the library, category, star count, and license.
 
-Let's make machine learning libraries more open, appropriately scoped, and production-ready.
+---
+
+## 💖 Support & Sponsorship
+
+If you find this repository valuable for your research, team, or production pipelines, please consider showing your support:
+
+- 🌟 **Star this repository** to help others discover it!
+- 🍴 **Fork it** and add your favorite machine learning libraries.
+- 📢 **Share it** on X / LinkedIn / Reddit with your data science network.
+- ☕ **Support future development & maintenance**:  
+  [![Buy Me A Coffee](https://img.shields.io/badge/Sponsor-Buy%20Me%20A%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://github.com/sponsors/ishandutta2007)  
+  Visit the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007) to back open-source curation and maintenance!
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Machine-Learning-Libraries&type=date&legend=top-left)](https://strr-history.dera.page/#ishandutta2007/Awesome-Machine-Learning-Libraries&type=date&legend=top-left)
+
+---
+
+## ⚖️ Disclaimer
+
+- **Community Curated**: This is an independent, community-driven resource. Project inclusions, star counts, and pricing benchmarks reflect active public intelligence and do not constitute formal commercial endorsements.
+- **Enterprise SaaS Pricing**: Enterprise ML SaaS pricing is frequently customized based on consumption, active deployments, and compute tiers; always contact respective sales organizations for binding quotes.
+- **Library Selection Guide**: Tabular modeling & predictive regression/classification $ightarrow$ `scikit-learn`, `XGBoost`, `LightGBM`, `CatBoost`; Foundation Deep Learning $ightarrow$ `PyTorch`, `TensorFlow`, `JAX`; High-Throughput LLM Serving $ightarrow$ `vLLM`, `DeepSpeed`, `BentoML`; End-to-End AutoML $ightarrow$ `AutoGluon`, `PyCaret`, `H2O-3`.
+
+<div align="center">
+  <sub>Built with ❤️ for data scientists, ML engineers, and researchers worldwide.</sub>
+</div>

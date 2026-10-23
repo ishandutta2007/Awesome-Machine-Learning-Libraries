@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="100%" height="340">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#070b14" />
+    </linearGradient>
+
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="glowGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="glowGrad2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c084fc" stop-opacity="0.22" />
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.1" />
+      <stop offset="50%" stop-color="#818cf8" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0.1" />
+    </linearGradient>
+
+    <!-- Filter for soft neon glow -->
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <style>
+      .bg-grid {
+        stroke: rgba(255, 255, 255, 0.035);
+        stroke-width: 1;
+      }
+      .node-pulse {
+        animation: pulse 4s ease-in-out infinite alternate;
+      }
+      .node-pulse-2 {
+        animation: pulse 3s ease-in-out infinite alternate-reverse;
+      }
+      .float-pill {
+        animation: float 6s ease-in-out infinite alternate;
+      }
+      .float-pill-delayed {
+        animation: float 7s ease-in-out 1.5s infinite alternate-reverse;
+      }
+      .wave-flow {
+        stroke-dasharray: 8 6;
+        animation: dash 18s linear infinite;
+      }
+      @keyframes pulse {
+        0% { transform: scale(0.92); opacity: 0.35; }
+        100% { transform: scale(1.15); opacity: 0.9; }
+      }
+      @keyframes float {
+        0% { transform: translateY(0px); }
+        100% { transform: translateY(-10px); }
+      }
+      @keyframes dash {
+        to { stroke-dashoffset: -200; }
+      }
+      .title-text {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        font-size: 46px;
+        font-weight: 800;
+        letter-spacing: -0.8px;
+      }
+      .subtitle-text {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        font-size: 17px;
+        font-weight: 500;
+        fill: #94a3b8;
+        letter-spacing: 0.2px;
+      }
+      .tag-text {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        font-size: 13px;
+        font-weight: 600;
+      }
+    </style>
+  </defs>
+
+  <!-- Deep Sci-Fi Background -->
+  <rect width="1200" height="340" rx="18" fill="url(#bgGrad)" />
+
+  <!-- Animated Glowing Aura Orbs in Background -->
+  <circle cx="180" cy="90" r="140" fill="url(#glowGrad1)" class="node-pulse" style="transform-origin: 180px 90px;" />
+  <circle cx="1020" cy="240" r="160" fill="url(#glowGrad2)" class="node-pulse-2" style="transform-origin: 1020px 240px;" />
+
+  <!-- Subtle Tech Grid Lines in Background -->
+  <g class="bg-grid">
+    <line x1="100" y1="0" x2="100" y2="340" />
+    <line x1="250" y1="0" x2="250" y2="340" />
+    <line x1="400" y1="0" x2="400" y2="340" />
+    <line x1="550" y1="0" x2="550" y2="340" />
+    <line x1="700" y1="0" x2="700" y2="340" />
+    <line x1="850" y1="0" x2="850" y2="340" />
+    <line x1="1000" y1="0" x2="1000" y2="340" />
+    <line x1="0" y1="70" x2="1200" y2="70" />
+    <line x1="0" y1="170" x2="1200" y2="170" />
+    <line x1="0" y1="270" x2="1200" y2="270" />
+  </g>
+
+  <!-- Animated Neural Flow Curves (Background layer) -->
+  <path d="M 50 290 Q 300 210, 600 270 T 1150 180" fill="none" stroke="rgba(56, 189, 248, 0.22)" stroke-width="2.5" class="wave-flow" />
+  <path d="M 80 80 Q 400 150, 750 90 T 1120 160" fill="none" stroke="rgba(192, 132, 252, 0.22)" stroke-width="2" class="wave-flow" style="animation-direction: reverse; stroke-dasharray: 6 5;" />
+
+  <!-- Constellation Nodes & Links (Background) -->
+  <g stroke="rgba(255, 255, 255, 0.12)" stroke-width="1">
+    <line x1="140" y1="130" x2="220" y2="70" />
+    <line x1="220" y1="70" x2="280" y2="140" />
+    <line x1="940" y1="180" x2="1030" y2="120" />
+    <line x1="1030" y1="120" x2="1090" y2="200" />
+  </g>
+  <circle cx="140" cy="130" r="4" fill="#38bdf8" />
+  <circle cx="220" cy="70" r="5" fill="#818cf8" />
+  <circle cx="280" cy="140" r="3.5" fill="#c084fc" />
+  <circle cx="940" cy="180" r="4" fill="#818cf8" />
+  <circle cx="1030" cy="120" r="5" fill="#38bdf8" />
+  <circle cx="1090" cy="200" r="4" fill="#c084fc" />
+
+  <!-- Floating Tech Ecosystem Pills (Kept low and non-overlapping with title) -->
+  <g class="float-pill">
+    <rect x="110" y="235" width="160" height="34" rx="17" fill="rgba(15, 23, 42, 0.85)" stroke="rgba(56, 189, 248, 0.3)" stroke-width="1.2" />
+    <circle cx="127" cy="252" r="5" fill="#38bdf8" />
+    <text x="141" y="257" class="tag-text" fill="#38bdf8">Gradient Boosting</text>
+  </g>
+
+  <g class="float-pill-delayed">
+    <rect x="920" y="70" width="170" height="34" rx="17" fill="rgba(15, 23, 42, 0.85)" stroke="rgba(192, 132, 252, 0.3)" stroke-width="1.2" />
+    <circle cx="937" cy="87" r="5" fill="#c084fc" />
+    <text x="951" y="92" class="tag-text" fill="#c084fc">AutoML &amp; MLOps</text>
+  </g>
+
+  <g class="float-pill">
+    <rect x="940" y="235" width="150" height="34" rx="17" fill="rgba(15, 23, 42, 0.85)" stroke="rgba(129, 140, 248, 0.3)" stroke-width="1.2" />
+    <circle cx="957" cy="252" r="5" fill="#818cf8" />
+    <text x="971" y="257" class="tag-text" fill="#818cf8">Deep Learning</text>
+  </g>
+
+  <!-- FOREGROUND CONTENT: Header, Title, Subtitle, Divider, and Highlights (Guaranteed foreground) -->
+  <g transform="translate(600, 75)" text-anchor="middle">
+    <!-- Super-category badge -->
+    <rect x="-115" y="-18" width="230" height="28" rx="14" fill="rgba(56, 189, 248, 0.12)" stroke="rgba(56, 189, 248, 0.35)" stroke-width="1" />
+    <text x="0" y="1" class="tag-text" fill="#38bdf8" letter-spacing="1.2">CURATED ECOSYSTEM 2026</text>
+  </g>
+
+  <!-- Main Hero Title -->
+  <g transform="translate(600, 145)" text-anchor="middle">
+    <text class="title-text" fill="url(#titleGrad)" filter="url(#neonGlow)">Awesome Machine Learning Libraries</text>
+  </g>
+
+  <!-- Clean Glowing Gradient Divider -->
+  <line x1="380" y1="180" x2="820" y2="180" stroke="url(#lineGrad)" stroke-width="2" />
+
+  <!-- Subtitle Line 1 -->
+  <g transform="translate(600, 215)" text-anchor="middle">
+    <text class="subtitle-text">The Ultimate Collection of Open-Source ML Frameworks, AutoML Platforms &amp; Self-Hosted Toolkits</text>
+  </g>
+
+  <!-- Subtitle Line 2 / Feature Badges -->
+  <g transform="translate(600, 252)" text-anchor="middle">
+    <text class="subtitle-text" font-size="14.5px" fill="#cbd5e1">
+      ⚡ High-Performance Boosting &nbsp;•&nbsp; 🧠 Deep Learning Frameworks &nbsp;•&nbsp; 🚀 LLMs &amp; Serving &nbsp;•&nbsp; 📊 Transparent SaaS Benchmarks
+    </text>
+  </g>
+
+  <!-- Bottom Accent Border -->
+  <rect x="0" y="336" width="1200" height="4" fill="url(#titleGrad)" />
+</svg>
