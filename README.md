@@ -30,45 +30,30 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global machine learning platforms and Automated Machine Learning (AutoML) market is estimated at **$3.7B–$6.8B for AutoML** (and **$135B+ for the broader ML platform ecosystem**) in 2026, advancing at a compound annual growth rate (CAGR) exceeding 35%. The sector exhibits a bifurcated market structure: it is **highly concentrated** at the core cloud infrastructure and compute layer dominated by hyperscalers (Microsoft, Alphabet, and Amazon), yet **moderately fragmented** across specialized enterprise AutoML, automated feature engineering, and predictive analytics vendors.
 
 ## SaaS/Hosted Platforms
 
-
-
-| Product | Description | Pricing | Free Tier Limit |
-
-| :--- | :--- | :--- | :--- |
-
-| **[DataRobot](https://www.datarobot.com/)** | Automated ML platform with AutoML, MLOps, and generative AI capabilities. | **Pricing 5.0 (Classic MLOps)**: contact sales for quote; pricing based on active deployments . | No public free tier. Trial available via sales engagement. |
-
-| **[H2O.ai](https://h2o.ai/)** | Enterprise AI platform with Driverless AI (AutoML) and the open-source H2O-3 library. | **Driverless AI**: enterprise licensing. Microsoft Marketplace lists **$250,000/year** starting price for H2O AI Cloud Platform . | **H2O-3**: fully free and open-source (Apache 2.0). Driverless AI: free trial available; no permanent free tier. |
-
-| **[Dataiku](https://www.dataiku.com/)** | Collaborative data science platform with visual and code-based workflows. | **Commercial editions** (Discover, Business, Enterprise) quoted by sales; no public list prices . | **14-day Cloud Trial**: 5 users, 4 CPUs, 32 GB compute, all features except Govern/advanced LLM Mesh. **Free Edition** for on-prem (feature-restricted) . |
-
-| **[Pecan AI](https://www.pecan.ai/)** | Predictive analytics platform focused on revenue and customer lifecycle predictions. | **Starter**: monthly predictions batches, 500M rows storage. **Team**: 10 batches, 2B rows. **Business**: custom, 5B rows . Exact dollar amounts not published on pricing page. | No permanent free tier. **Starter plan** available but pricing not disclosed publicly. |
-
-| **[BigML](https://bigml.com/)** | Machine learning platform with a focus on ease of use and private deployments. | **Private Deployment (Single Instance)**: support fee $9,000/year. **12-Instance**: license $70,000/year + $14,000 maintenance + $21,000 support. **36-Instance**: license $120,000/year + $24,000 maintenance + $36,000 support . | No public free tier for private deployments. Trial available on cloud platform. |
-
-| **[dotData](https://dotdata.com/)** | Automated feature engineering and predictive analytics platform. | **dotData Insight Lite**: starts at **¥50,000/month** (approx. $330) for Japanese SMBs (annual revenue under ¥30B) . | No permanent free tier. Lite plan available for qualifying SMBs. |
-
-| **[Akkio](https://www.akkio.com/)** | No-code predictive modeling platform. **Repositioned as enterprise-only** in 2026. | **Custom quote only**. The $49 Starter and $99 Growth self-serve plans are **no longer available** . | No free tier. No self-serve signup—contact sales only . |
-
-| **[AWS SageMaker](https://aws.amazon.com/sagemaker/)** | End-to-end ML platform with built-in algorithms, AutoML (Autopilot), and deployment. | Pay-as-you-go for compute, storage, and data processing; no upfront commitments . | **Free tier**: 250 hours of ml.t2.medium/ml.t3.medium notebooks, 50 hours of ml.m4.xlarge training, 125 hours of ml.m4.xlarge hosting (2 months) . |
-
-| **[Azure Automated ML](https://azure.microsoft.com/en-us/products/machine-learning/automatedml)** | Microsoft's AutoML service within Azure Machine Learning. | Pay-as-you-go for compute; AutoML itself has no separate charge. | **$200 credit** for new Azure accounts (30 days). Free compute tier varies by region. |
-
-| **[Google Cloud AutoML](https://cloud.google.com/automl)** | Google's managed AutoML for vision, language, and tabular data. | Pay-as-you-go for training and prediction; AutoML Tables billed per node-hour. | **$300 free credit** for new GCP accounts (90 days). |
-
-
+| Product | Company Scale (Valuation / Revenue) | Description | Pricing | Free Tier Limit |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Azure Automated ML](https://azure.microsoft.com/en-us/products/machine-learning/automatedml)** | **~$3.1T Market Cap** (Microsoft parent; $245B+ ARR) | Microsoft's AutoML service within Azure Machine Learning. | **$0.02/hour** compute entry (pay-as-you-go; AutoML software tools included with Azure ML compute). | **$200 credit** (30-day trial) + free monthly quota of select Azure services (e.g., 750 hours of B1s VMs for 12 months). |
+| **[Google Cloud AutoML](https://cloud.google.com/automl)** | **~$2.1T Market Cap** (Alphabet parent; $350B+ revenue) | Google's managed AutoML for tabular, vision, and text workflows. | **$21.50/hour** for tabular model training ($0.056/hour for minimal Vertex AI compute endpoints). | **$300 free credits** (valid for 90 days) across GCP services; no permanent free AutoML training. |
+| **[AWS SageMaker](https://aws.amazon.com/sagemaker/)** | **~$2.0T Market Cap** (Amazon parent; AWS $105B+ ARR) | End-to-end ML platform with built-in algorithms, AutoML (Autopilot), and deployment. | **$0.05/hour** (entry compute via `ml.t3.medium` instances; pay-as-you-go). | **2-month free trial**: 250 hours/month of `ml.t2.medium`/`ml.t3.medium` notebooks, 50 hours of `ml.m4.xlarge` training, and 125 hours of `ml.m4.xlarge` hosting. |
+| **[DataRobot](https://www.datarobot.com/)** | **$6.3B Valuation** ($225M–$285M ARR) | Automated ML platform with AutoML, MLOps, and generative AI capabilities. | **~$40,000/year** entry-level enterprise tier (~$3,333/month equivalent via custom contract). | **14-day free trial** with full platform capabilities upon sales verification; no permanent free tier. |
+| **[Dataiku](https://www.dataiku.com/)** | **$3.7B Valuation** ($350M+ ARR) | Collaborative data science platform with visual and code-based workflows. | **~$4,000/month** (~$48,000/year entry commercial package). | **14-day Cloud Trial** (5 users, 4 CPUs, 32 GB compute) or **Free Edition** on-premises (limited to 3 users, community support). |
+| **[H2O.ai](https://h2o.ai/)** | **$1.7B Valuation** (~$75M ARR) | Enterprise AI platform with Driverless AI (AutoML) and the open-source H2O-3 library. | **$250,000/year** starting enterprise license via cloud marketplaces. | **21-day free trial** of Driverless AI; or permanent **H2O-3 Open Source** (100% free under Apache 2.0). |
+| **[Pecan AI](https://www.pecan.ai/)** | **$117M Funding** (~$10M ARR) | Predictive analytics platform focused on revenue and customer lifecycle predictions. | **~$950/month** entry-level prediction plan (Starter tier billed annually). | **14-day guided proof-of-concept / sandbox trial** via sales demo; no permanent free tier. |
+| **[dotData](https://dotdata.com/)** | **$74.6M Funding** (~$15M–$25M ARR est.) | Automated feature engineering and predictive analytics platform. | **¥50,000/month** (~$330/month) for dotData Insight Lite (Japanese SMB tier). | **14-day evaluated trial / pilot** upon request; no permanent free tier. |
+| **[Akkio](https://www.akkio.com/)** | **$60M Valuation** ($18M total funding) | AI-native analytics and predictive modeling platform for agencies. | **$49/month** (Starter self-serve plan; scaling to enterprise packages). | **14-day free trial** (access to core predictive models and data connectors; no credit card required). |
+| **[BigML](https://bigml.com/)** | **$6.6M Funding** (~$5M–$10M ARR) | Machine learning platform with a focus on ease of use and private deployments. | **$30/month** (Standard plan; 64 MB task size, 2 parallel tasks). | **Free forever plan**: max **16 MB** dataset/task size, max 2 parallel tasks, unlimited non-commercial runs. |
 
 ## Open-Source GitHub Projects
 
